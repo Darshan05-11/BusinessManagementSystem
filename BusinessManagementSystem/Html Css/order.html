@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Details</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Order Information</h1>
+    <form>
+      <label for="order_id">Order ID</label>
+      <input type="number" id="order_id" name="order_id" readonly />
+
+      <label for="totalAmount">Total Amount</label>
+      <input type="number" step="0.01" id="totalAmount" name="totalAmount" />
+
+      <label for="status">Status</label>
+      <input type="text" id="status" name="status" />
+
+      <label for="orderDate">Order Date</label>
+      <input type="date" id="orderDate" name="orderDate" />
+
+      <label for="cust_id">Customer ID</label>
+      <input type="number" id="cust_id" name="cust_id" />
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

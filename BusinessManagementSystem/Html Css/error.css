@@ -1,0 +1,25 @@
+.error-box {
+    border-left: 6px solid #faa32b;
+    background-color: #fff5e6;
+  }
+  
+  .error-box h1 {
+    color: #d9534f;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #00bbd6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #019db3;
+  }
+  
